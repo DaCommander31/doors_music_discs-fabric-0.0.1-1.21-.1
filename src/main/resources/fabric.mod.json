@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "doors_music_discs",
+	"version": "${version}",
+	"name": "Roblox Doors Music Discs",
+	"description": "All the Roblox Doors OSTs as playable music discs!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/doors_music_discs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dacommander31.doors_music_discs.RobloxDoorsMusicDiscs"
+		],
+		"fabric-datagen": [
+			"net.dacommander31.doors_music_discs.RobloxDoorsMusicDiscsDataGenerator"
+		],
+		"client": [
+			"net.dacommander31.doors_music_discs.RobloxDoorsMusicDiscsClient"
+		]
+	},
+	"mixins": [
+		"doors_music_discs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

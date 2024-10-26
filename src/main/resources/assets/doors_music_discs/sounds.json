@@ -1,0 +1,178 @@
+{
+  "music_disc.dawn_of_the_doors": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/dawn_of_the_doors",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.elevator_jam": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/elevator_jam",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.guiding_light": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/guiding_light",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.unhinged": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/unhinged",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.here_i_come": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/here_i_come",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.jeffs_jingle": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/jeffs_jingle",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.unhinged_2": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/unhinged_2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.elevator_jammed": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/elevator_jammed",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.curious_light": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/curious_light",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.elevator_jam_remix": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/elevator_jam_remix",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.doors_trailer_remix": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/doors_trailer_remix",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.dusk_of_the_doors": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/dusk_of_the_doors",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.jeffs_jingle_dnb_remix": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/jeffs_jingle_dnb_remix",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.make_haste": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/make_haste",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.seek_merch_trailer_theme": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/seek_merch_trailer_theme",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.elevator_jam_retro_mode": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/elevator_jam_retro_mode",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.elevator_jam_voiced": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/elevator_jam_voiced",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.ready_or_not": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/ready_or_not",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.ready_to_rumble": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/ready_to_rumble",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.jeffs_jam": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/jeffs_jam",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.oh_dam": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/oh_dam",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fresh_rain": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/fresh_rain",
+        "stream": true
+      }
+    ]
+  }
+}
