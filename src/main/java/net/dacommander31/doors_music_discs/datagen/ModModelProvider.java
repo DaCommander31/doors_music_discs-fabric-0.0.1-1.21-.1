@@ -1,0 +1,35 @@
+package net.dacommander31.doors_music_discs.datagen;
+
+import net.dacommander31.doors_music_discs.item.ModItems;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
+import net.minecraft.item.Item;
+
+public class ModModelProvider extends FabricModelProvider {
+    public ModModelProvider(FabricDataOutput output) {
+        super(output);
+    }
+
+    @Override
+    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
+    }
+
+    @Override
+    public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        simpleItem(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.ELEVATOR_JAM_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.GUIDING_LIGHT_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.UNHINGED_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.HERE_I_COME_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.JEFFS_JINGLE_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.CURIOUS_LIGHT_MUSIC_DISC, itemModelGenerator);
+    }
+
+    private static void simpleItem(Item item, ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(item, Models.GENERATED);
+    }
+}
