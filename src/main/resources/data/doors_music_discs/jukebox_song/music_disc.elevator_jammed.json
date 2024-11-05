@@ -1,0 +1,6 @@
+{
+  "comparator_output": 8,
+  "description": "LSPLASH - Elevator Jammed",
+  "length_in_seconds": 56.0,
+  "sound_event": "doors_music_discs:music_disc.elevator_jammed"
+}

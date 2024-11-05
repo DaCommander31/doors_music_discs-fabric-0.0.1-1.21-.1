@@ -12,15 +12,22 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup ROBLOX_DOORS_MUSIC_DISCS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "roblox_doors_music_discs"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RESONATOR))
                     .displayName(Text.translatable("itemgroup.doors_music_discs.roblox_doors_music_discs"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RESONATOR);
+                        entries.add(ModItems.INSTRUMENT_SHUFFLER);
                         entries.add(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC);
                         entries.add(ModItems.ELEVATOR_JAM_MUSIC_DISC);
                         entries.add(ModItems.GUIDING_LIGHT_MUSIC_DISC);
                         entries.add(ModItems.UNHINGED_MUSIC_DISC);
                         entries.add(ModItems.HERE_I_COME_MUSIC_DISC);
                         entries.add(ModItems.JEFFS_JINGLE_MUSIC_DISC);
+                        entries.add(ModItems.UNHINGED_2_MUSIC_DISC);
+                        entries.add(ModItems.ELEVATOR_JAMMED_MUSIC_DISC);
+                        entries.add(ModItems.ELEVATOR_JAM_REMIX_MUSIC_DISC);
+                        entries.add(ModItems.DOORS_TRAILER_REMIX_MUSIC_DISC);
+                        entries.add(ModItems.DUSK_OF_THE_DOORS_MUSIC_DISC);
                         entries.add(ModItems.CURIOUS_LIGHT_MUSIC_DISC);
                     })
                     .build());

@@ -20,12 +20,19 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        simpleItem(ModItems.RESONATOR, itemModelGenerator);
+        simpleItem(ModItems.INSTRUMENT_SHUFFLER, itemModelGenerator);
         simpleItem(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.ELEVATOR_JAM_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.GUIDING_LIGHT_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.UNHINGED_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.HERE_I_COME_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.JEFFS_JINGLE_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.UNHINGED_2_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.ELEVATOR_JAMMED_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.ELEVATOR_JAM_REMIX_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.DOORS_TRAILER_REMIX_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.DUSK_OF_THE_DOORS_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.CURIOUS_LIGHT_MUSIC_DISC, itemModelGenerator);
     }
 
