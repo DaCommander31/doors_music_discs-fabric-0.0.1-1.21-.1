@@ -174,5 +174,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("PLW")
                 .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
                 .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.JEFFS_JINGLE_DNB_REMIX_MUSIC_DISC)
+                .input(ModItems.JEFFS_JINGLE_MUSIC_DISC)
+                .input(Items.ROTTEN_FLESH)
+                .input(Items.BONE)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.JEFFS_JINGLE_MUSIC_DISC), conditionsFromItem(ModItems.JEFFS_JINGLE_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAKE_HASTE_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('C', Items.CLOCK)
+                .input('L', Items.LEVER)
+                .input('D', ItemTags.WOODEN_DOORS)
+                .input('P', ItemTags.PLANKS)
+                .pattern("PDP")
+                .pattern("LRC")
+                .pattern("PDP")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .criterion(hasItem(Items.CLOCK), conditionsFromItem(Items.CLOCK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('B', Items.BLACK_WOOL)
+                .input('W', Items.WHITE_WOOL)
+                .input('G', Items.GOLD_NUGGET)
+                .pattern("BBB")
+                .pattern("WRW")
+                .pattern("GBG")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
     }
 }

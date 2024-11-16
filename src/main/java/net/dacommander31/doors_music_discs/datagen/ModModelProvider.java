@@ -34,6 +34,9 @@ public class ModModelProvider extends FabricModelProvider {
         simpleItem(ModItems.DOORS_TRAILER_REMIX_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.DUSK_OF_THE_DOORS_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.CURIOUS_LIGHT_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.JEFFS_JINGLE_DNB_REMIX_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.MAKE_HASTE_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC, itemModelGenerator);
     }
 
     private static void simpleItem(Item item, ItemModelGenerator itemModelGenerator) {

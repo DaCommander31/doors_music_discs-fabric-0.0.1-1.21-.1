@@ -18,17 +18,20 @@ public class ModItemGroups {
                         entries.add(ModItems.RESONATOR);
                         entries.add(ModItems.INSTRUMENT_SHUFFLER);
                         entries.add(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC);
-                        entries.add(ModItems.ELEVATOR_JAM_MUSIC_DISC);
-                        entries.add(ModItems.GUIDING_LIGHT_MUSIC_DISC);
-                        entries.add(ModItems.UNHINGED_MUSIC_DISC);
                         entries.add(ModItems.HERE_I_COME_MUSIC_DISC);
+                        entries.add(ModItems.UNHINGED_MUSIC_DISC);
+                        entries.add(ModItems.GUIDING_LIGHT_MUSIC_DISC);
+                        entries.add(ModItems.ELEVATOR_JAM_MUSIC_DISC);
                         entries.add(ModItems.JEFFS_JINGLE_MUSIC_DISC);
                         entries.add(ModItems.UNHINGED_2_MUSIC_DISC);
                         entries.add(ModItems.ELEVATOR_JAMMED_MUSIC_DISC);
-                        entries.add(ModItems.ELEVATOR_JAM_REMIX_MUSIC_DISC);
-                        entries.add(ModItems.DOORS_TRAILER_REMIX_MUSIC_DISC);
-                        entries.add(ModItems.DUSK_OF_THE_DOORS_MUSIC_DISC);
                         entries.add(ModItems.CURIOUS_LIGHT_MUSIC_DISC);
+                        entries.add(ModItems.DOORS_TRAILER_REMIX_MUSIC_DISC);
+                        entries.add(ModItems.ELEVATOR_JAM_REMIX_MUSIC_DISC);
+                        entries.add(ModItems.DUSK_OF_THE_DOORS_MUSIC_DISC);
+                        entries.add(ModItems.JEFFS_JINGLE_DNB_REMIX_MUSIC_DISC);
+                        entries.add(ModItems.MAKE_HASTE_MUSIC_DISC);
+                        entries.add(ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC);
                     })
                     .build());
 
