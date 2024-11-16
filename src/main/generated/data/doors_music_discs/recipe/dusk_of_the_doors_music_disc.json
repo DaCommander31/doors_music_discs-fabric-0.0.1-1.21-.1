@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "D": {
+      "tag": "minecraft:wooden_doors"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
+  },
+  "pattern": [
+    "BLB",
+    "DRD",
+    "BLB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:dusk_of_the_doors_music_disc"
+  }
+}

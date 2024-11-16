@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "doors_music_discs:item/unhinged_2_music_disc"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "D": {
+      "tag": "minecraft:wooden_doors"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "SDB",
+    "ERE",
+    "BDS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:here_i_come_music_disc"
+  }
+}

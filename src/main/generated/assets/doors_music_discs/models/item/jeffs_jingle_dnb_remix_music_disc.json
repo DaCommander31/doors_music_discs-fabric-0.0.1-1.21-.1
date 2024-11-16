@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "doors_music_discs:item/jeffs_jingle_dnb_remix_music_disc"
+  }
+}

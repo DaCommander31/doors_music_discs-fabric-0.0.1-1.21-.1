@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "L": {
+      "item": "minecraft:soul_lantern"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "pattern": [
+    "DLP",
+    "SRS",
+    "PLD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:guiding_light_music_disc"
+  }
+}

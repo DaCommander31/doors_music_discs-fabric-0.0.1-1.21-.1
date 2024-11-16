@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elevator_jam_music_disc": {
+      "conditions": {
+        "items": [
+          {
+            "items": "doors_music_discs:elevator_jam_music_disc"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_instrument_shuffler": {
+      "conditions": {
+        "items": [
+          {
+            "items": "doors_music_discs:instrument_shuffler"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "doors_music_discs:elevator_jam_remix_music_disc"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_elevator_jam_music_disc",
+      "has_instrument_shuffler"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "doors_music_discs:elevator_jam_remix_music_disc"
+    ]
+  }
+}

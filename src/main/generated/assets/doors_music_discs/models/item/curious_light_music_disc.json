@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "doors_music_discs:item/curious_light_music_disc"
+  }
+}

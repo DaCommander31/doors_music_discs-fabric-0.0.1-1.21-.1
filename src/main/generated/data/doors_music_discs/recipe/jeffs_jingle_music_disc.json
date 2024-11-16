@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "pattern": [
+    "S S",
+    "BRB",
+    "BGB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:jeffs_jingle_music_disc"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "minecraft:wooden_doors"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
+  },
+  "pattern": [
+    "PLP",
+    "DRD",
+    "PLP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:dawn_of_the_doors_music_disc"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:soul_lantern"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
+  },
+  "pattern": [
+    "LPL",
+    "PRP",
+    "LPL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:doors_trailer_remix_music_disc"
+  }
+}
