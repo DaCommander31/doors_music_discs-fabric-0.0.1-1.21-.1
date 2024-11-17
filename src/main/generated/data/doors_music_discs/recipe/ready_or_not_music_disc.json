@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doors_music_discs:here_i_come_music_disc"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "item": "minecraft:rail"
+    },
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "doors_music_discs:instrument_shuffler"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:ready_or_not_music_disc"
+  }
+}

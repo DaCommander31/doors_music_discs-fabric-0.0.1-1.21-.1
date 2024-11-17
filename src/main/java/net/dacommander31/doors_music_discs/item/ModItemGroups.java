@@ -32,6 +32,13 @@ public class ModItemGroups {
                         entries.add(ModItems.JEFFS_JINGLE_DNB_REMIX_MUSIC_DISC);
                         entries.add(ModItems.MAKE_HASTE_MUSIC_DISC);
                         entries.add(ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC);
+                        entries.add(ModItems.ELEVATOR_JAM_RETRO_MODE_MUSIC_DISC);
+                        entries.add(ModItems.ELEVATOR_JAM_VOICED_MUSIC_DISC);
+                        entries.add(ModItems.READY_OR_NOT_MUSIC_DISC);
+                        entries.add(ModItems.READY_TO_RUMBLE_MUSIC_DISC);
+                        entries.add(ModItems.JEFFS_JAM_MUSIC_DISC);
+                        entries.add(ModItems.OH_DAM_MUSIC_DISC);
+                        entries.add(ModItems.FRESH_RAIN_MUSIC_DISC);
                     })
                     .build());
 

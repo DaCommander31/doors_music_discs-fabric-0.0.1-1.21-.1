@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "P": {
+      "tag": "minecraft:pickaxes"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "Y": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "WPS",
+    "LRY",
+    "SVW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:ready_to_rumble_music_disc"
+  }
+}

@@ -15,9 +15,14 @@
   "item.doors_music_discs.curious_light_music_disc": "Music Disc",
   "item.doors_music_discs.jeffs_jingle_dnb_remix_music_disc": "Music Disc",
   "item.doors_music_discs.make_haste_music_disc": "Music Disc",
+  "item.doors_music_discs.seek_merch_trailer_theme_music_disc": "Music Disc",
+  "item.doors_music_discs.elevator_jam_retro_mode_music_disc": "Music Disc",
+  "item.doors_music_discs.elevator_jam_april_fools_music_disc": "Music Disc",
+  "item.doors_music_discs.ready_or_not_music_disc": "Music Disc",
+  "item.doors_music_discs.ready_to_rumble_music_disc": "Music Disc",
+  "item.doors_music_discs.jeffs_jam_music_disc": "Music Disc",
+  "item.doors_music_discs.oh_dam_music_disc": "Music Disc",
+  "item.doors_music_discs.fresh_rain_music_disc": "Music Disc",
 
-  "itemgroup.doors_music_discs.roblox_doors_music_discs": "Roblox Doors Music Discs",
-
-  "tooltip.doors_music_discs.resonator": "A redstone mechanism used to craft Doors music discs",
-  "tooltip.doors_music_discs.instrument_shuffler": "An item used to create Doors music disc remixes"
+  "itemgroup.doors_music_discs.roblox_doors_music_discs": "Roblox Doors Music Discs"
 }

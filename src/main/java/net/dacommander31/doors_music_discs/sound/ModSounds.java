@@ -2,7 +2,6 @@ package net.dacommander31.doors_music_discs.sound;
 
 import net.dacommander31.doors_music_discs.RobloxDoorsMusicDiscs;
 import net.minecraft.block.jukebox.JukeboxSong;
-import net.minecraft.block.jukebox.JukeboxSongs;
 import net.minecraft.registry.*;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvent;

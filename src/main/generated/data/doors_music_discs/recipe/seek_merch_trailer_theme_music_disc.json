@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "WRW",
+    "GBG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:seek_merch_trailer_theme_music_disc"
+  }
+}

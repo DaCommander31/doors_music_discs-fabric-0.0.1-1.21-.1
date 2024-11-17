@@ -37,6 +37,13 @@ public class ModModelProvider extends FabricModelProvider {
         simpleItem(ModItems.JEFFS_JINGLE_DNB_REMIX_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.MAKE_HASTE_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.ELEVATOR_JAM_RETRO_MODE_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.ELEVATOR_JAM_VOICED_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.READY_OR_NOT_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.READY_TO_RUMBLE_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.JEFFS_JAM_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.OH_DAM_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.FRESH_RAIN_MUSIC_DISC, itemModelGenerator);
     }
 
     private static void simpleItem(Item item, ItemModelGenerator itemModelGenerator) {

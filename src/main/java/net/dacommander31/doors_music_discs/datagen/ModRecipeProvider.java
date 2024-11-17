@@ -196,6 +196,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
                 .criterion(hasItem(Items.CLOCK), conditionsFromItem(Items.CLOCK))
                 .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC)
                 .input('R', ModItems.RESONATOR)
                 .input('B', Items.BLACK_WOOL)
@@ -205,6 +206,85 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("WRW")
                 .pattern("GBG")
                 .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ELEVATOR_JAM_RETRO_MODE_MUSIC_DISC)
+                .input(ModItems.ELEVATOR_JAM_MUSIC_DISC)
+                .input(Items.RED_DYE)
+                .input(Items.GREEN_DYE)
+                .input(Items.BLUE_DYE)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.ELEVATOR_JAM_MUSIC_DISC), conditionsFromItem(ModItems.ELEVATOR_JAM_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ELEVATOR_JAM_VOICED_MUSIC_DISC)
+                .input(ModItems.ELEVATOR_JAM_MUSIC_DISC)
+                .input(ItemTags.NOTEBLOCK_TOP_INSTRUMENTS)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.ELEVATOR_JAM_MUSIC_DISC), conditionsFromItem(ModItems.ELEVATOR_JAM_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.READY_OR_NOT_MUSIC_DISC)
+                .input(ModItems.HERE_I_COME_MUSIC_DISC)
+                .input(Items.WATER_BUCKET)
+                .input(Items.BLACK_DYE)
+                .input(Items.MINECART)
+                .input(Items.RAIL)
+                .input(Items.POINTED_DRIPSTONE)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.HERE_I_COME_MUSIC_DISC), conditionsFromItem(ModItems.HERE_I_COME_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.READY_TO_RUMBLE_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('P', ItemTags.PICKAXES)
+                .input('S', Items.STONE)
+                .input('W', Items.WATER_BUCKET)
+                .input('V', Items.VINE)
+                .input('L', Items.LEVER)
+                .input('Y', Items.REDSTONE)
+                .pattern("WPS")
+                .pattern("LRY")
+                .pattern("SVW")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.JEFFS_JAM_MUSIC_DISC)
+                .input(ModItems.JEFFS_JINGLE_MUSIC_DISC)
+                .input(Items.WATER_BUCKET)
+                .input(ItemTags.PLANKS)
+                .input(ItemTags.BUTTONS)
+                .input(Items.REDSTONE)
+                .input(Items.GOLD_NUGGET)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.JEFFS_JINGLE_MUSIC_DISC), conditionsFromItem(ModItems.JEFFS_JINGLE_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OH_DAM_MUSIC_DISC)
+                .input(ModItems.HERE_I_COME_MUSIC_DISC)
+                .input(Items.WATER_BUCKET)
+                .input(Items.BLACK_DYE)
+                .input(ItemTags.PLANKS)
+                .input(Items.REDSTONE)
+                .input(ItemTags.STONE_BRICKS)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.HERE_I_COME_MUSIC_DISC), conditionsFromItem(ModItems.HERE_I_COME_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.FRESH_RAIN_MUSIC_DISC)
+                .input(ModItems.ELEVATOR_JAMMED_MUSIC_DISC)
+                .input(Items.WATER_BUCKET)
+                .input(ItemTags.WOODEN_DOORS)
+                .input(ItemTags.STONE_BRICKS)
+                .input(ItemTags.SAPLINGS)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.ELEVATOR_JAMMED_MUSIC_DISC), conditionsFromItem(ModItems.ELEVATOR_JAMMED_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
                 .offerTo(exporter);
     }
 }
